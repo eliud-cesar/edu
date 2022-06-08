@@ -1,0 +1,87 @@
+/* MADE BY KURO-NICOLAS FOR OPEN SOURCE*/
+
+/* GENERALS */
+.center {
+    text-align: center;
+}
+.separation {
+    width: 90%;
+    height: 1px;
+    background-color: hsla(0,0%,50%,.3);
+    margin: .2rem 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+li {
+    margin: 5px 0;
+}
+h1, .subtitle {
+    color: black;
+}
+img {
+    width: 250px;
+}
+
+/* MARGINS */
+.notm {margin: 0;}
+.notmt {margin-top: 0;}
+.notmb {margin-bottom: 0;}
+.notml {margin-left: 0;}
+.notmr {margin-right: 0;}
+
+/* BODY */
+.body {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    font-family: sans-serif;
+}
+/* MENU */
+.main-menu {
+    font-size: .85rem;
+    background-color: #F6F6F6;
+    border-right: 1px solid #DDDDFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+.main-menu_nav {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.main-menu img {
+    width: 200px !important;
+}
+
+/* CONTENT */
+.main-content {
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: 0 auto 1rem auto;
+    color: hsl(0,0%,30%);
+}
+.main-content .img-main {
+    width: 50%;
+}
+.indice {
+    background: #F8F9FA;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    color: black;
+}
+.indice ol {
+    padding-left: 1rem;
+}
+.title-content {
+    color: black;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid hsla(0,0%,50%,.5);
+}
